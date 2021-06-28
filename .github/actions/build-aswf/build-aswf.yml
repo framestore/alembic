@@ -1,0 +1,7 @@
+# action.yml
+name: 'Python 3.7 aswf Wheel'
+author: 'Max Last'
+description: 'Build manylinux wheels for a (Cython) Python package'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
